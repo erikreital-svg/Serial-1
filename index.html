@@ -1,3 +1,7 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>html,body{margin:0;padding:0}</style>
 <title>The Girl Who Saw Tomorrow</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -125,3 +129,5 @@ document.getElementById('gform').addEventListener('submit',async ev=>{ev.prevent
   if(await h(v)===HASH){store.set('ok',HASH);muted=false;syncSound();begin()}else{document.getElementById('err').textContent='Неверный пароль';document.getElementById('pin').value=''}});
 if(store.get('ok')===HASH)begin();
 </script>
+
+</html>
